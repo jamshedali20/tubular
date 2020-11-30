@@ -2,7 +2,7 @@ client_id: CLIENT_ID
 client_secret: CLIENT_SECRET
 
 base_urls:
-    lms: https://dev.multisitesdev.edly.io
+    lms: http://dev.multisitesdev.edly.io
     ecommerce: ECOM_BASE_URL
     credentials: CREDS_BASE_URL
 
