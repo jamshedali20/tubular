@@ -1,5 +1,5 @@
-client_id: CLIENT_ID
-client_secret: CLIENT_SECRET
+client_id: qwtMsHAh1Wtd17E8mnho2Nhg7XYezGoL6qdPdtpN
+client_secret: NBkUo3Zh5t4iBustDNYudbibwPsOXbxL8fyG97ZzSX1KqYFv4gvDVVMXI73AF6PVUd0ia3abOm7D4y4IMoJMZqvLcI8rC51JZqf8jA1tAd2LStWiUL31w9axfPszLtDL
 
 base_urls:
     lms: http://dev.multisitesdev.edly.io
