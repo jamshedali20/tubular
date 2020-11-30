@@ -1,0 +1,15 @@
+client_id: CLIENT_ID
+client_secret: CLIENT_SECRET
+
+base_urls:
+    lms: LMS_BASE_URL
+    ecommerce: ECOM_BASE_URL
+    credentials: CREDS_BASE_URL
+
+retirement_pipeline:
+    - ['RETIRING_ENROLLMENTS', 'ENROLLMENTS_COMPLETE', 'LMS', 'retirement_unenroll']
+    - ['RETIRING_LMS', 'LMS_COMPLETE', 'LMS', 'retirement_lms_retire']
+    - ['RETIRING_LMS_MISC', 'LMS_MISC_COMPLETE', 'LMS', 'retirement_lms_retire_misc']
+    - ['RETIRING_FORUM', 'FORUM_COMPLETE', 'LMS', 'retirement_retire_forum']
+    - ['RETIRING_NOTES', 'NOTES_COMPLETE', 'LMS', 'retirement_retire_notes']
+
