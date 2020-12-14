@@ -11,5 +11,5 @@ retirement_pipeline:
     - ['RETIRING_LMS', 'LMS_COMPLETE', 'LMS', 'retirement_lms_retire']
     - ['RETIRING_LMS_MISC', 'LMS_MISC_COMPLETE', 'LMS', 'retirement_lms_retire_misc']
     - ['RETIRING_FORUM', 'FORUM_COMPLETE', 'LMS', 'retirement_retire_forum']
-    - ['RETIRING_PROCTORING', 'PROCTORING_COMPLETE', 'LMS', 'retirement_retire_proctoring_data']
+    # - ['RETIRING_PROCTORING', 'PROCTORING_COMPLETE', 'LMS', 'retirement_retire_proctoring_data']
 
